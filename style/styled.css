@@ -1,0 +1,61 @@
+html,body{
+    height: 100vh;
+}
+.header{
+    
+    background-color: rgb(1, 59, 1);
+    width:80%;
+   margin-left: auto;
+   margin-right: auto;
+  
+    height: 50px;
+}
+
+.countrol-container{
+    display: flex;
+    flex: space-between;
+    
+}
+.wepperhead{
+    
+    display: flex;
+    font-size: 18px;
+    margin: 50px 0 50px 0;
+    width: 100px;
+}
+.wepperhead2{
+    display: flex;
+    font-size: 18px;
+    margin-left: 750px;
+    margin-top: 50px;
+    width: 100px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+
+    
+}
+a:link 
+{ 
+ text-decoration:none; 
+ 
+} 
+a{
+    color: rgb(37, 37, 37);
+}
+.main-container{
+    border: 1px solid red;
+    
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 1070px;
+}
+.section-container{
+    border: 1px solid red;
+    height: 60%;
+    width: 100%;
+}
