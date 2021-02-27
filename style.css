@@ -4,3 +4,21 @@ header{
 main{
     height: 100%;
 }
+ul{
+    text-align: justify;
+}
+li{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
+.primeiro{
+    background-color: blue;
+    
+}
+.segundo{
+    background-color: yellow;
+}
+.terceiro{
+    background-color: green;
+}

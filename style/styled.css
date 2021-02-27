@@ -3,40 +3,73 @@ html,body{
 }
 .header{
     
-    background-color: rgb(1, 59, 1);
-    width:80%;
+    background-color: var(--verde-limao);
+    border-radius: 40px;
+    width:60%;
    margin-left: auto;
    margin-right: auto;
-  
-    height: 50px;
-}
-
-.countrol-container{
-    display: flex;
-    flex: space-between;
-    
+   margin-top: 50px;
+    height: 60px;
 }
 .wepperhead{
-    
-    display: flex;
-    font-size: 18px;
-    margin: 50px 0 50px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 18px;
+    margin-left: 50px;
+}
+.texto-minerva{
     width: 100px;
+    position: absolute;
+    top: 30px;
+    margin-left: 180px;
 }
 .wepperhead2{
     display: flex;
     font-size: 18px;
-    margin-left: 750px;
-    margin-top: 50px;
-    width: 100px;
+    margin-left: 700px;
+    padding-top: 15px;
 }
+.fav{
+    width: 25px;
+    margin-top: 5px;
+}
+.carrinho{
+    border-left: 1px solid rgb(82, 82, 82);
+    width: 30px;
+    margin-top: 3px;
+    margin-left: 10px;
+    padding-left:  5px; 
+}
+   
 li{
+    font-family: 'Roboto Condensed', sans-serif;
     list-style-type: none;
-    display: inline;
-    padding: 10px;
-
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    font-size: 22px;
     
 }
+.tornozeleiras{
+    border-left:0.5px solid rgb(82, 82, 82);
+    
+}
+.colares{
+    border-left:1px solid rgb(82, 82, 82);
+}
+.alça{
+    border-left:1px solid rgb(82, 82, 82);
+}
+.brincos{
+    border-left:1px solid rgb(82, 82, 82);
+}
+.coleiras{
+    border-left:1px solid rgb(82, 82, 82);
+}
+
 a:link 
 { 
  text-decoration:none; 
@@ -44,6 +77,7 @@ a:link
 } 
 a{
     color: rgb(37, 37, 37);
+    
 }
 .main-container{
     border: 1px solid red;
@@ -51,8 +85,8 @@ a{
     height: 100vh;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
-    width: 1070px;
+    margin-top: 20px;
+    width: 100%;
 }
 .section-container{
     border: 1px solid red;
